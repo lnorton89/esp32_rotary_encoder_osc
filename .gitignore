@@ -1,0 +1,17 @@
+# Build and PlatformIO files
+.pio/
+.vscode/
+*.pyc
+__pycache__/
+
+# Secrets files
+include/secrets.h
+
+# IDE files
+.vs/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

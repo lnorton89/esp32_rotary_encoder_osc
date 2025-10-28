@@ -1,0 +1,10 @@
+# Include Files
+
+This directory contains header files for various components of the rotary encoder project:
+
+- `rotary_encoder.h` - Contains the RotaryEncoder and EncoderButton classes for handling KY-040 rotary encoder input
+- `wifi_connector.h` - Contains the WiFiConnector class for managing WiFi connections
+- `osc_handler.h` - Contains the OSCHandler class for sending OSC (Open Sound Control) messages
+- `web_server_handler.h` - Contains the WebServerHandler class for providing a web interface to monitor the system
+- `component_config.h` - Contains macros to enable or disable various components in the project
+- `secrets.h` - Contains sensitive information like WiFi credentials (remember to add this to .gitignore)
